@@ -1,0 +1,30 @@
+diff --git a/node_modules/react-native-accurate-step-counter/android/build.gradle b/node_modules/react-native-accurate-step-counter/android/build.gradle
+index 22fc78f..144ff0e 100755
+--- a/node_modules/react-native-accurate-step-counter/android/build.gradle
++++ b/node_modules/react-native-accurate-step-counter/android/build.gradle
+@@ -13,12 +13,12 @@ buildscript {
+ apply plugin: 'com.android.library'
+ 
+ android {
+-    compileSdkVersion 23
+-    buildToolsVersion "23.0.1"
++    compileSdkVersion 33
++    buildToolsVersion "33.0.0"
+ 
+     defaultConfig {
+-        minSdkVersion 16
+-        targetSdkVersion 22
++        minSdkVersion 21
++        targetSdkVersion 33
+         versionCode 1
+         versionName "1.0"
+     }
+@@ -33,6 +33,6 @@ repositories {
+ }
+ 
+ dependencies {
+-    compile 'com.facebook.react:react-native:+'
++    implementation 'com.facebook.react:react-native:+'
+ }
+   
+\ No newline at end of file
